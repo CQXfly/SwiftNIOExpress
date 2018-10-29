@@ -1,0 +1,6 @@
+framework module CNIOZlib {
+  umbrella header "CNIOZlib-umbrella.h"
+
+  export *
+  module * { export * }
+}
