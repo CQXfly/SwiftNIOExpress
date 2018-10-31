@@ -16,6 +16,12 @@
 		980576702186E3F500275619 /* SwiftNIOExpressTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9805766F2186E3F500275619 /* SwiftNIOExpressTests.swift */; };
 		9805767B2186E3F600275619 /* SwiftNIOExpressUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9805767A2186E3F600275619 /* SwiftNIOExpressUITests.swift */; };
 		980576892186EE8000275619 /* Express.swift in Sources */ = {isa = PBXBuildFile; fileRef = 980576882186EE8000275619 /* Express.swift */; };
+		9805768C218980FC00275619 /* FuckExpress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9805768B218980FC00275619 /* FuckExpress.swift */; };
+		9805768E2189838000275619 /* ServerHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9805768D2189838000275619 /* ServerHandler.swift */; };
+		98057690218995A600275619 /* MiddleWare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9805768F218995A600275619 /* MiddleWare.swift */; };
+		98057692218995C600275619 /* IncomingMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98057691218995C600275619 /* IncomingMessage.swift */; };
+		980576942189961800275619 /* ServerResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 980576932189961800275619 /* ServerResponse.swift */; };
+		98057696218999BE00275619 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98057695218999BE00275619 /* Router.swift */; };
 		F21E5C826BCACD4DD7F5DBC9 /* Pods_SwiftNIOExpressUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCA8E360A3D9BE0593C11C44 /* Pods_SwiftNIOExpressUITests.framework */; };
 		F61E96E1066953DE816AF6E3 /* Pods_SwiftNIOExpressTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2338C5EF9A61B45C32107A3D /* Pods_SwiftNIOExpressTests.framework */; };
 /* End PBXBuildFile section */
@@ -59,6 +65,12 @@
 		9805767A2186E3F600275619 /* SwiftNIOExpressUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftNIOExpressUITests.swift; sourceTree = "<group>"; };
 		9805767C2186E3F600275619 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		980576882186EE8000275619 /* Express.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Express.swift; sourceTree = "<group>"; };
+		9805768B218980FC00275619 /* FuckExpress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuckExpress.swift; sourceTree = "<group>"; };
+		9805768D2189838000275619 /* ServerHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerHandler.swift; sourceTree = "<group>"; };
+		9805768F218995A600275619 /* MiddleWare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiddleWare.swift; sourceTree = "<group>"; };
+		98057691218995C600275619 /* IncomingMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncomingMessage.swift; sourceTree = "<group>"; };
+		980576932189961800275619 /* ServerResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerResponse.swift; sourceTree = "<group>"; };
+		98057695218999BE00275619 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
 		CFCE1C4FEBE7F0AA64999FC3 /* Pods_SwiftNIOExpress.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftNIOExpress.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCA8E360A3D9BE0593C11C44 /* Pods_SwiftNIOExpressUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftNIOExpressUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -123,6 +135,12 @@
 				980576632186E3F500275619 /* LaunchScreen.storyboard */,
 				980576662186E3F500275619 /* Info.plist */,
 				980576882186EE8000275619 /* Express.swift */,
+				9805768B218980FC00275619 /* FuckExpress.swift */,
+				9805768D2189838000275619 /* ServerHandler.swift */,
+				9805768F218995A600275619 /* MiddleWare.swift */,
+				98057691218995C600275619 /* IncomingMessage.swift */,
+				980576932189961800275619 /* ServerResponse.swift */,
+				98057695218999BE00275619 /* Router.swift */,
 			);
 			path = SwiftNIOExpress;
 			sourceTree = "<group>";
@@ -400,9 +418,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98057692218995C600275619 /* IncomingMessage.swift in Sources */,
 				9805765D2186E3F300275619 /* ViewController.swift in Sources */,
 				980576892186EE8000275619 /* Express.swift in Sources */,
+				9805768E2189838000275619 /* ServerHandler.swift in Sources */,
+				98057696218999BE00275619 /* Router.swift in Sources */,
+				98057690218995A600275619 /* MiddleWare.swift in Sources */,
+				980576942189961800275619 /* ServerResponse.swift in Sources */,
 				9805765B2186E3F300275619 /* AppDelegate.swift in Sources */,
+				9805768C218980FC00275619 /* FuckExpress.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
